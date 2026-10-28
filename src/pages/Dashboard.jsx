@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Header from './Header';
-import Statistics from './Statistics';
-import StudentList from './StudentList';
+import Header from '../components/Header';
+import Statistics from '../components/Statistics';
+import StudentList from '../components/StudentList';
 
 const initialStudents = [
   { id: 1, name: 'רחלי כהן', grade: 95, attendance: 12, active: true },
